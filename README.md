@@ -23,7 +23,29 @@ Number of hunts transitioned to new analytics	| Since you want to create new aut
 False positive rate of transitioned hunts	| Once you discover a successful way to find something and create a rule or analytic to automate that process, it is useful to keep track of how many false positives have been created by those automated analytics, to see if they require improvements
 Any new visibility gained	| In addition to discovering an incident and creating new threat intel, a hunt can inform analysts about their own networks, including misconfigurations, and identify friendly intelligence that can be highly useful in future investigations
 
+Types of Threat Hunting
 
+| IOC Based Threat Hunting | - Hunting based on IOC collected from Threat Intelligence |
+|  | - More like into Compromise Assessment |
+|  | - Checking whether the IOC is present in the environment |
+|  | - Checking on Specific Threat Actor or Specific Threat Intel Report |
+|  |  |
+| Hypotheses Based Threat Hunting | - Creating a hypothesis for certain TTPs e.g : Hypotheses for hunting on endpoint, hypotheses for hunting on |
+|  | network, |
+|  | - Leverage Framework such as MITRE ATT&CK Framework for creating |
+|  | hypotheses on TTPs of Threat Actor |
+|  | - Defining specific asset for hunting (such as Crown Jewel Asset) |
+|  |  |
+| Baseline Based Threat Hunting | - Detect something haven't seen before based on baseline data in the |
+|  | environment |
+|  | - Needs larger set of data available about your infra for creating the baseline |
+|  | - Sometimes triggers lot of False Positives |
+|  | - Quite effective to spot changes in your infra |
+|  |  |
+| Anomaly Based Threat Hunting | - Siting through the log data available for the threat hunters to spot |
+|  | irregularities that might be malicious |
+|  | - Additionally applying patterns on your infra |
+|  | - Quite useful in Fraud detection |
 
 This repository contains references to various Threat hunting best approaches\
 Below are some great repositories where we can start from\
