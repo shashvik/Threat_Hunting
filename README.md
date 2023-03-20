@@ -62,122 +62,22 @@ Threat hunting loop
 
 
 Threat Hunting Scenarios
-Case | Discription | objective |
+Type of hunt| MITRE ATT&CK | Objectives |
 --- | --- | --- |
-|
+| Artifact Based Hunting | Hide Artifacts, Defensive Evasion | Executables Running from Temporary Directories, Recycle-bin |
+|  | https://attack.mitre.org/techniques/T1564/ |
+| Artifact Based Hunting | Command and Scripting Interpreter, Execution | PowerShell hunt |
+|  | https://attack.mitre.org/techniques/T1059/ |
+| Artifact Based Hunting | Boot or Logon AutoStart Execution, Persistence | AutoStart entry points Hunting |
+|  | https://attack.mitre.org/techniques/T1547/ |
+| Artifact Based Hunting | Scheduled Task/Job, Persistence | Scheduled task Hunting |
+|  | https://attack.mitre.org/techniques/T1053/ |
+| IOC Based Hunting | Execution, Persistence, Privilege Escalation, Command and Control | APT Tooling Hunting |
+| IOC Based Hunting | System Binary Proxy Execution | Living of the land Binaries Hunting |
+|  | https://attack.mitre.org/techniques/T1218/ |
+| IOC/TTP Based Hunting | https://attack.mitre.org/groups/G0035/ | APT Threat-Dragonfly hunting |
 
-Type of hunt
 
- |
-
-MITRE ATT&CK
-
- |
-
-Objectives
-
- |
-|
-
-Artifact Based Hunting
-
- |
-
-Hide Artifacts, Defensive Evasion
-
-https://attack.mitre.org/techniques/T1564/
-
- |
-
-Executables Running from Temporary Directories, Recycle-bin
-
- |
-|
-
-Artifact Based Hunting
-
- |
-
-Command and Scripting Interpreter, Execution
-
-https://attack.mitre.org/techniques/T1059/
-
- |
-
-PowerShell hunt
-
- |
-|
-
-Artifact Based Hunting
-
- |
-
-Boot or Logon AutoStart Execution, Persistence
-
-https://attack.mitre.org/techniques/T1547/
-
- |
-
-AutoStart entry points Hunting
-
- |
-|
-
-Artifact Based Hunting
-
- |
-
-Scheduled Task/Job, Persistence
-
-https://attack.mitre.org/techniques/T1053/
-
- |
-
-Scheduled task Hunting
-
- |
-|
-
-IOC Based Hunting
-
- |
-
-Execution, Persistence, Privilege Escalation, Command and Control
-
- |
-
-APT Tooling Hunting
-
- |
-|
-
-IOC Based Hunting
-
- |
-
-System Binary Proxy Execution
-
-https://attack.mitre.org/techniques/T1218/
-
- |
-
-Living of the land Binaries Hunting
-
- |
-|
-
-IOC/TTP Based Hunting
-
- |
-
-https://attack.mitre.org/groups/G0035/
-
- |
-
-APT Threat-Dragonfly hunting
-
- |
 This repository contains references to various Threat hunting best approaches\
 Below are some great repositories where we can start from\
 Use attack navigator to create a hypothesis, yara signatures.\
