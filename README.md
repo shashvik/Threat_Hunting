@@ -12,12 +12,7 @@ Threat Hunting Metrics
 
 Markdown | Less |
 --- | --- | 
-Number of incidents by severity	|You will never be able to know for certain how many incidents are lurking 
-in your network until you find them, but ultimately keeping track of the rate 
-at which you find incidents is a worthy metric to maintain context.
-Number of compromised hosts by severity	Measuring the trend of how many hosts are discovered as compromised over time can help orient analysts to the state of endpoint security on their network. This can include hosts that have had misconfigured security settings on them
-Dwell time of any incidents discovered	Whenever possible, try to determine how long discovered threats have been active on your network. This can help you determine if there are steps of the kill chain (or other attack model) you may be focusing on too much. Dwell time has 3 metrics: time from infection until detection, time from detection to investigation, and time from investigation to remediation
-Number of detection gaps filled	One high-level goal of hunting is to create new automated detections -- identifying and filling detection gaps should be part of the team’s mission.
+Number of incidents by severity	|You will never be able to know for certain how many incidents are lurking in your network until you find them, but ultimately keeping track of the rate at which you find incidents is a worthy metric to maintain context.Number of compromised hosts by severity	Measuring the trend of how many hosts are discovered as compromised over time can help orient analysts to the state of endpoint security on their network. This can include hosts that have had misconfigured security settings on them Dwell time of any incidents discovered	Whenever possible, try to determine how long discovered threats have been active on your network.This can help you determine if there are steps of the kill chain (or other attack model) you may be focusing on too much. Dwell time has 3 metrics: time from infectionuntil detection, time from detection to investigation, and time from investigation to remediationNumber of detection gaps filled	One high-level goal of hunting is to create new automated detections -- identifying and filling detection gaps should be part of the team’s mission.
 
 This repository contains references to various Threat hunting best approaches\
 Below are some great repositories where we can start from\
