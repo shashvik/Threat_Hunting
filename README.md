@@ -1,4 +1,12 @@
 # Threat_Hunting
+
+INTRODUCTION \
+Threat hunt is a combative procedure in uncovering hidden adversaries with the presumption that the attacker may be present inside an organization’s network for days, weeks, and even months, preparing and executing attacks such as Zero Day, Advanced Persistent Threats, and unknown threats. Threat hunt combines a proactive methodology, innovative technology, highly skilled people, and in-depth threat intelligence to find and stop malicious activity. These attacks are hard-to-detect and executed by stealth attackers. Existing preventive tools often miss these attacks before they can execute their objectives.\
+
+Threat Hunting Pyramid of Pain \
+This describe the various artifacts that can be used during a threat hunt, ranging from hash values, IP addresses and domains which are very easy to hunt for, but very easy for the attackers to modify also.
+The harder ones are host artifacts, network, tools TTP, these are harder to hunt for, and will give better results as it is harder for attackers to change.\
+
 This repository contains references to various Threat hunting best approaches\
 Below are some great repositories where we can start from\
 Use attack navigator to create a hypothesis, yara signatures.\
