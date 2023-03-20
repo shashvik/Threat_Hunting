@@ -24,7 +24,7 @@ False positive rate of transitioned hunts	| Once you discover a successful way t
 Any new visibility gained	| In addition to discovering an incident and creating new threat intel, a hunt can inform analysts about their own networks, including misconfigurations, and identify friendly intelligence that can be highly useful in future investigations
 
 Types of Threat Hunting
-
+Case | Discription |
 | IOC Based Threat Hunting | - Hunting based on IOC collected from Threat Intelligence |
 |  | - More like into Compromise Assessment |
 |  | - Checking whether the IOC is present in the environment |
